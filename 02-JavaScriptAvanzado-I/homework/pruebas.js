@@ -137,4 +137,10 @@
 //   //creeria que primero muestra 1 despues del 2 al 1000, despues del 3 al 0 y por ultimo el numero 4//  
 
 //   //solo dio del 1 al 4 por que los numeros 1000 y 0 no estaban en la funcion simplemente los ignoro
- 
+
+
+//setTimeout da el proceso para otra api para que lo resuelva por que se le da como consigna que es muy pesada
+ //los numeros de atras son los segundos que va a tardar en procesarla la api
+
+ //Es una funcion que retorna una funcion,donde la funcion retornada usa un parametro
+ //de la funcion que la invoco
