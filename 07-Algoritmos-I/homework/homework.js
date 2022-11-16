@@ -17,7 +17,7 @@ function factorear(num) {
         //divide num por i para seguir la division
         num = num/i;
       } else {
-        //si no cumple con el if le suma uno al let
+        //si no cumple con el if le suma uno a i para que divida por 3 en vez de 2
         i++;
       }
     }
@@ -25,7 +25,7 @@ function factorear(num) {
     return array;
   
 }
-console.log(factorear(33))
+
 
 function bubbleSort(array) {
   // Implementar el método conocido como bubbleSort para ordenar de menor a mayor
@@ -46,7 +46,7 @@ function bubbleSort(array) {
           //toma el valor de su anterior posicion que se guardo en aux
           array[i+1] = aux;
           swap = true; // volvemos a colocar nuestra condicion de corte en true para que siga trabajando el while hasta q no hayan mas cambios para hacer en el loop.
-   }              // cuando no tenga mas cambios para hacer el swap va a quedar en false y el while va a finalizar.
+   }// cuando no tenga mas cambios para hacer el swap va a quedar en false y el while va a finalizar.
  }
 }
 return array
